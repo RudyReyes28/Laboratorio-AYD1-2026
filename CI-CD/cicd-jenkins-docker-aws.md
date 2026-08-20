@@ -162,6 +162,9 @@ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 # Verificar
 sudo docker --version
 sudo docker compose version
+
+#Agregar permisos
+sudo usermod -aG docker ubuntu
 ```
 
 **4. Agregar jenkins al grupo docker** (después de instalar Jenkins)
